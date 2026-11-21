@@ -72,18 +72,6 @@
       border-radius: 2px;
     }
 
-    .projects {
-      list-style: none;
-      margin-top: 3.5rem;
-      display: grid;
-      grid-template-columns: max-content 1fr;
-      column-gap: 2rem;
-      row-gap: 0.75rem;
-    }
-    .projects li { display: contents; }
-    .projects a { font-weight: 600; }
-    .projects span { color: var(--muted); }
-
     .contact {
       list-style: none;
       margin-top: 3.5rem;
@@ -91,23 +79,12 @@
       flex-wrap: wrap;
       gap: 0.5rem 1.75rem;
     }
-
-    @media (max-width: 30rem) {
-      .projects { grid-template-columns: 1fr; row-gap: 0; }
-      .projects span { margin-bottom: 1rem; }
-    }
   </style>
 </head>
 <body>
   <main>
     <h1>Nishanth V</h1>
     <p class="intro">Software engineer. I build web things.</p>
-
-    <ul class="projects">
-      <li><a href="https://iamnishanth.github.io/lab/">lab</a><span>Small web experiments, one page each</span></li>
-      <li><a href="https://iamnishanth.github.io/drop/">drop</a><span>Drag-and-drop HTML pages onto GitHub Pages</span></li>
-      <li><a href="https://frontpage-app.vercel.app">frontpage</a><span>A cleaner Hacker News reader</span></li>
-    </ul>
 
     <ul class="contact">
       <li><a href="https://github.com/iamnishanth">GitHub</a></li>
